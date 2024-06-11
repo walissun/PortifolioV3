@@ -11,7 +11,7 @@
 }
 
 body{
-    background-color: rgba(38, 95, 97, 0.46);
+    background-image: url('../Imagen/SPtech.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -50,6 +50,8 @@ h2.title{
 header{
     padding: 40px 4%;
     box-shadow: 0 0 40px 10px #05050527;
+    width: 100%;
+    background-color: #ffffff43;
 }
 header > .home-bar{
     display: flex;
@@ -80,6 +82,7 @@ header nav li {
 .top-port{
     padding: 80px 4%;
     box-shadow: 0 0 40px 10px #05050527;
+    background-color: #ffffff43;
 }
 .top-port .flex {
     align-items: center;
@@ -115,6 +118,7 @@ header nav li {
 .habilidades{
     padding: 70px 4%;
     box-shadow: 0 0 40px 10px #05050527;
+    background-color: #ffffff43;
 }
 .habilidades .flex {
     gap: 60px;
@@ -146,6 +150,7 @@ header nav li {
 .sobre{
     padding: 90px 4%;
     box-shadow: 0 0 40px 10px #05050527;
+    background-color: #ffffff43;
 }
 section.sobre .flex{
     align-items: center;
@@ -182,10 +187,11 @@ section.sobre .flex{
     margin: 0 4px;
     transition: .2s;
 }
+/* PROJETOS */
 section.projetos{
     padding: 80px 4%;
-    
     box-shadow: 0 0 40px 10px #05050527;
+    background-color: #ffffff43;
 }
 .img-projetos{
     width: 360px;
@@ -231,6 +237,7 @@ section.projetos{
 section.formulario{
     padding: 80px 4%;
     box-shadow: 0 0 40px 10px #05050527;
+    background-color: #ffffff43;
 }
 form{
     max-width: 500px;
@@ -261,6 +268,7 @@ form .btn-enviar{
 footer {
     padding: 40px 4%;
     box-shadow: 0 0 40px 10px #05050527;
+    background-color: #ffffff43;
 }
 .linha-roda1 .flex{
     align-items: center;
