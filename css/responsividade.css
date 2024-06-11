@@ -33,6 +33,9 @@ section.projetos{
     padding: 80px 8%;
 }   
 .img-projetos{
+    width: 300px;
+}
+.img-projetos{
     margin: 20px;
 }
 /* Contato */
