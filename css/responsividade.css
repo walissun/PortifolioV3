@@ -1,0 +1,45 @@
+@media screen and (max-width:1020px){
+    /* class geral */
+    .flex {
+        flex-direction: column;
+    }
+    /* cabeçalho */
+    .menu-desktop, .btn-contato{
+    display: none;
+    }
+}
+/* TOPO DO SITE */
+
+.top-port{
+    padding: 20px 8%;
+    box-shadow: 0 0 40px 10px #05050527;
+}
+.top-port h1{
+    font-size: 32px;
+}
+.top-port .avatar-topo {
+    width: 100%;
+}
+/* Habilidades */
+.habilidades{
+    padding: 20px 8%;
+}
+/* SOBRE */
+.sobre{
+    padding: 80px 8%;
+}
+/* PROJETOS */
+section.projetos{
+    padding: 80px 8%;
+}   
+.img-projetos{
+    margin: 20px;
+}
+/* Contato */
+section.formulario{
+    padding: 80px 8%;  
+}
+/* FOOTER */
+footer {
+    padding: 40px 8%;
+}
