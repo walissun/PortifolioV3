@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <header>
+    <header class="bg-header">
     <div class="home-bar">
     <div class="logo">
         <a href="https://walissun.github.io/PortifolioV3/Index.html">
@@ -19,21 +19,28 @@
          </div><!---logo--->
         <nav class="menu-desktop">
           <ul>
-            <li><a href="#section1">Inicio</a></li>
-            <li><a href="#section2">Habilidades</a></li>
-            <li><a href="#section3">Sobre</a></li>
-            <li><a href="#section4">Projetos</a></li>
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#Habilidades">Habilidades</a></li>
+            <li><a href="#Sobre">Sobre</a></li>
+            <li><a href="#Projetos">Projetos</a></li>
+            <li><a href="#Contatos">Contato</a></li>
           </ul>
         </nav><!---menu--->
-        <div class="btn-contato" >
+       <!--- <div  class="btn-contato" >
             <a href="#Contatos">
                 <button>Contato</button>
             </a>
-        </div><!---contato--->
+        </div>-contato--->
     </div><!---home-->
     </header>
     <main>
-        <section class="top-port" id="Inicio">
+        <section id="Inicio" class="top-port" >
+            <div class="video-background">
+                <video autoplay muted loop id="bg-video">
+                    <source src="./Video-bg/VISTA DA CIDADE - LOOPING (Sem Direitos Autorais).mp4" type="video/mp4">
+                    Seu navegador não suporta a tag de vídeo.
+                </video>
+            </div>
             <div class="rosto">
                 <div class="flex">
                     <div class="texto-topo">
@@ -54,7 +61,7 @@
                 </div><!---flex--->
             </div> <!---rosto--->
         </section><!---topo do portifolio--->
-        <section class="habilidades"id="Habilidades">
+        <section id="Habilidades"class="habilidades">
             <div class="rosto">
                 <h2 class="title">HABILIDADES</h2>
                 <div class="flex">
@@ -79,14 +86,14 @@
                 </div><!---flex--->
             </div><!---rosto--->
         </section><!---especialidades--->
-        <section class="sobre"id="Sobre">
+        <section id="Sobre"class="sobre">
             <div class="rosto">
                 <div class="flex">
                     <div class="img-sobre">
                         <img src="./Imagen/avatar do incio.png" alt="">
                     </div><!---img-sobre--->
                     <div class="texto-sobre">
-                        <h2>MUITO PRAZER <span>SOU WALISSON R. SOUZA</span></h2>
+                        <h2>MUITO PRAZER SOU<span> WALISSON R. SOUZA</span></h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptatibus! Nulla, rem quae. Similique sequi neque eligendi ab accusamus dolore quo sed, ducimus autem nobis voluptatum laborum iusto eos enim!</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum porro at voluptates. Vero pariatur facilis veritatis perferendis ullam deserunt, autem ratione quia, facere, unde molestiae aut voluptatum repudiandae vitae quisquam?</p>
                         <div class="btn-social">
@@ -97,7 +104,7 @@
                 </div><!---flex---> 
             </div><!---rosto--->
         </section><!--sobre--->
-        <section class="projetos"id="Projetos">
+        <section id="Projetos"class="projetos">
             <div class="rosto">
                 <h2 class="title">MEUS PROJETOS</h2>
                 <div class="flex">
@@ -107,7 +114,7 @@
                 </div><!--flex--->
             </div><!--rosto--->
         </section><!--projetos--->
-        <section class="formulario"id="#Contatos">
+        <section id="Contatos"class="formulario">
             <div class="rosto">
                 <h2 class="title">FALA COMIGO.</h2>
                 <form action="https://api.staticforms.xyz/submit" method="post">
