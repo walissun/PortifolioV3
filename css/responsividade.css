@@ -2,6 +2,7 @@
     /* class geral */
     .flex {
         flex-direction: column;
+        height: fit-content;  
     }
     /* cabeçalho */
     .menu-desktop, .btn-contato{
@@ -13,36 +14,70 @@
 .top-port{
     padding: 20px 8%;
     box-shadow: 0 0 40px 10px #05050527;
+    height: fit-content;  
+
 }
 .top-port h1{
-    font-size: 32px;
+    font-size: 30px;
+    color: black;
+}
+.top-port .texto-topo p{
+    font-size: 27px;
+    color: black;
 }
 .top-port .avatar-topo {
-    width: 100%;
+    display: none;
 }
 /* Habilidades */
 .habilidades{
-    padding: 20px 8%;
+   display: none;
+   height: fit-content;  
 }
 /* SOBRE */
 .sobre{
     padding: 80px 8%;
+    height: fit-content;  
+}
+.sobre .img-sobre{
+    display: none;
 }
 /* PROJETOS */
 section.projetos{
     padding: 80px 8%;
-}   
+    height: fit-content; 
+}  
 .img-projetos{
-    width: 300px;
+    width: 360px;
 }
 .img-projetos{
     margin: 20px;
 }
+.projetos .flex {
+    display: block;
+    white-space: nowrap;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.projetos .flex > a {
+    display: inline-block;
+    width: 100%;
+}
+
+.img-projetos {
+    scroll-snap-align: center;
+    width: calc(100% - 20px); 
+    margin: 0 10px; 
+}
 /* Contato */
 section.formulario{
-    padding: 80px 8%;  
+    padding: 80px 8%;
+    height: fit-content;  
 }
 /* FOOTER */
 footer {
     padding: 40px 8%;
+
 }
+
