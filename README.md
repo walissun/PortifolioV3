@@ -22,7 +22,7 @@ TECNOLOGIAS UTILIZADAS:
 
 HTML/CSS-
 TYPESCRIPT-
-API (api.staticforms)-
+API (api.staticforms)
 
 MELHORIAS FUTURAS:
 
